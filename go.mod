@@ -1,4 +1,4 @@
-module github.com/temporalio/ui-server
+module github.com/temporal/ui-server/v2
 
 go 1.18
 

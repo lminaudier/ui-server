@@ -36,7 +36,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/temporalio/ui-server/server/config"
+	"github.com/temporal/ui-server/v2/server/config"
 )
 
 const (
