@@ -1,4 +1,4 @@
-[![build](https://github.com/temporalio/ui-server/actions/workflows/test.yml/badge.svg)](https://github.com/temporalio/ui-server/actions/workflows/test.yml)
+[![build](https://github.com/temporalio/ui-server/v2/actions/workflows/test.yml/badge.svg)](https://github.com/temporalio/ui-server/actions/workflows/test.yml)
 
 # Development
 Pre-requirements:
@@ -20,8 +20,8 @@ To start the server, execute
 
 ## Configuration
 
-- When running ui-server as a docker image, you can pass docker env variables to configure auth, TLS and other options. See [quickstart for production](https://github.com/temporalio/ui-server/tree/main/docker#quickstart-for-production). For all options refer to [Dockerize config template](https://github.com/temporalio/ui-server/blob/main/docker/config_template.yaml)
-- Alternatively you can pass a .yaml configuration file based on the Dockerize template . Ex [development.yml config](https://github.com/temporalio/ui-server/tree/main/config) 
+- When running ui-server as a docker image, you can pass docker env variables to configure auth, TLS and other options. See [quickstart for production](https://github.com/temporalio/ui-server/v2/tree/main/docker#quickstart-for-production). For all options refer to [Dockerize config template](https://github.com/temporalio/ui-server/blob/main/docker/config_template.yaml)
+- Alternatively you can pass a .yaml configuration file based on the Dockerize template . Ex [development.yml config](https://github.com/temporalio/ui-server/v2/tree/main/config) 
 
 ## Debugging
 In VSCode launch "Debug Server" script (or press F5)
